@@ -1,0 +1,38 @@
+.content{
+    font-family: 'Circe Regular';
+    font-size: 24px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.content ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.content ul li{
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+.content ul li .link{
+    
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    padding: 3px 10px;
+    align-self: center;
+    background: rgba(0, 137, 186, 0.9);
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.content ul li .link:hover{
+    background: rgba(0, 137, 186, 0.5);
+}

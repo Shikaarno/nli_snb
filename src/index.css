@@ -1,13 +1,25 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3{
+  margin: 0;
+}
+@font-face {
+  font-family: 'Eastman-Medium';
+  src: url(./fonts/EastmanTrial-Medium.otf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family:'Eastman-Regular';
+  src: url(./fonts/EastmanTrial-Regular.otf);
 }
+
+@font-face {
+  font-family: 'Circe Regular';
+  src: url(./fonts/Circe-Regular.eot);
+  src: url(./fonts/Circe-Regular.eot?#iefix) format('embedded-opentype'),
+  url(./fonts/Circe-Regular.woff) format('woff'),
+  url(./fonts/Circe-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }

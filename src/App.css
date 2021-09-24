@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+.App{
+    min-height: 100vh;    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrap{
+    max-width: 500px;
+    min-width: 380px;    
+    min-height: 100vh;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.6) inset;
+    box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.chap{   
+    font-family: 'Circe Regular';
+    padding: 15px;
+    box-sizing: border-box;
+}
+.chap h1{
+    text-transform: uppercase;
+    font-family: 'Circe Regular';
+    color: black;
+    text-shadow: none;
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+.chap h3{
+    margin-top: 10px;
+}
+.chap .point{
+    margin: 0;
+    font-size: 18px;
+    border-bottom: 2px solid black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.chap .warn{
+    padding: 5px;
+    box-sizing: border-box;
+    font-style: italic;
+    background: #a7dbee
 }
 
-.App-link {
-  color: #61dafb;
+.warn-span{
+    display: block;
+    text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chap b{
+    display: block;
+}
+
+.chap ul{
+    margin-top: 10px;
+    padding-left: 20px;
+    list-style: none;
+}
+
+.chap .motion{
+    border: 4px solid #a7dbee;
+    box-sizing: border-box;
+}
+.motion ul li:before{
+    margin-left: -10px;
+    content: "\25fc";
+    color: #a7dbee;
+}
+.motion-span{
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
 }
