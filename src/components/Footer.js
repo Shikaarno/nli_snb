@@ -1,4 +1,5 @@
 import { useHistory } from "react-router-dom";
+import './Footer.css';
 
 function Footer(){
     let history = useHistory();
@@ -8,7 +9,7 @@ function Footer(){
     }
     
     return(
-        <div>
+        <div className="footer">
             <button onClick={goBack}>назад</button>
         </div>
     )

@@ -1,0 +1,21 @@
+.footer{
+   
+    height: 50px;
+}
+
+.footer button{
+    color: #111;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Circe Regular';
+    outline: none;
+    background-color: #a7dbee;
+    border: none;
+    height: 100%;
+    width: 35%;
+    font-size: 24px;
+}
+
+.footer button:hover{
+    background-color: #c3e4f1;
+}
